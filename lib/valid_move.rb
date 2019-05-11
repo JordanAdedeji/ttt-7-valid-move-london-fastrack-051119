@@ -4,6 +4,7 @@ def valid_move?(board, index)
    return true
    
    !position_taken?(board, index) || !board[index.between?(0, 8)]
+   return false
 
 end
 
